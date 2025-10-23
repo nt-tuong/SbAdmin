@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input nhiều ngôn ngữ</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { font-size: 18px; padding: 10px; width: 300px; margin-top: 10px; }
+    button { margin: 5px; padding: 10px 15px; font-size: 16px; }
+    .warning { color: red; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h2>Nhập theo ngôn ngữ</h2>
+<div>
+  <button data-lang="en" data-regex="^[a-zA-Z\s'-]*$">English</button>
+  <button data-lang="fr" data-regex="^[a-zA-ZÀ-ÿ\s'-]*$">Français</button>
+  <button data-lang="ja" data-regex="^[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF\s]*$">日本語</button>
+</div>
+
+<input type="text" id="inputLang" placeholder="Nhập ở đây..." inputmode="latin">
+<div class="warning" id="warning"></div>
+
+<script>
+const input = document.getElementById('inputLang');
+const warning = document.getElementById('warning');
+let currentRegex = /^[a-zA-Z\s'-]*$/; // mặc định English
+
+// Khi click nút chọn ngôn ngữ
+document.querySelectorAll('button').forEach(button => {
+  button.addEventListener('click', () => {
+    const lang = button.dataset.lang;
+    const regexStr = button.dataset.regex;
+    currentRegex = new RegExp(regexStr);
+
+    // Gợi ý bàn phím cho ngôn ngữ
+    input.lang = lang;
+
+    // Một số bàn phím mobile sẽ tự chọn layout dựa vào lang
+    input.focus();
+
+    // Xóa cảnh báo cũ
+    warning.textContent = "";
+  });
+});
+
+// Kiểm tra input theo ngôn ngữ đang chọn
+input.addEventListener('input', (e) => {
+  const value = e.target.value;
+  if (!currentRegex.test(value)) {
+    e.target.value = value.replace(new RegExp(currentRegex.source.replace(/\^|\*|\$/g, ''), 'g'), '');
+    warning.textContent = "Ký tự không hợp lệ cho ngôn ngữ này!";
+  } else {
+    warning.textContent = "";
+  }
+});
+</script>
+
+</body>
+</html>
