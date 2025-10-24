@@ -174,18 +174,26 @@
       const input = document.getElementById("exampleInputEmail");
       console.log("=== START LOGGING ===");
 
-      [
-        "beforeinput",
-        "input",
-        "keydown",
-        "keypress",
-        "keyup",
-        "blur",
-        "focusout",
-      ].forEach((evt) => {
-        input.addEventListener(evt, (e) => {
-          console.log(`${evt}: ${e.inputType || e.key || "no-key"}`);
-        });
+      //   [
+      //     "beforeinput",
+      //     "input",
+      //     "keydown",
+      //     "keypress",
+      //     "keyup",
+      //     "blur",
+      //     "focusout",
+      //   ].forEach((evt) => {
+      //     input.addEventListener(evt, (e) => {
+      //       console.log(`${evt}: ${e.inputType || e.key || "no-key"}`);
+      //     });
+      //   });
+      input.addEventListener("focusout", (e) => {
+        console.log("focusout - relatedTarget:", e.relatedTarget);
+        console.log("activeElement after focusout:", document.activeElement);
+
+        setTimeout(() => {
+          console.log("activeElement after 100ms:", document.activeElement);
+        }, 100);
       });
     </script>
 
