@@ -17,7 +17,7 @@ window.s7_data = {
 				"section_title": "TEST group 6",
 				"section_display_order": 1,
 				"flow_guides": {
-					"total": 2,
+					"total": 4,
 					"source": [
 						{
 							"flow_guide_id": 759,
@@ -31,6 +31,592 @@ window.s7_data = {
 						}
 					],
 					"result": [
+						{
+                     "id":86,
+                     "flow_guide_title":"... test la. la.",
+                     "flow_guide_description":"",
+                     "flow_guide_page_name":"SB Admin 2 - Dashboard",
+                     "flow_guide_page_url":"/",
+                     "is_public":0,
+                     "group_info_ids":[
+                        
+                     ],
+                     "is_owner":false,
+                     "is_favorite":false,
+                     "flowguide_property_details":[
+                        
+                     ],
+                     "is_auto":0,
+                     "created_uid":1,
+                     "created_at":"2025-10-24 03:41:00",
+                     "updated_at":"2025-10-24 03:41:00",
+                     "guides":[
+                        {
+                           "id":334,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"auto",
+                           "guide_page_url":"/",
+                           "guide_page_name":"SB Admin 2 - Dashboard",
+                           "guide_item_notes":"",
+                           "is_first_guide":1,
+                           "guide_details":{
+                              "id":332,
+                              "guide_id":334,
+                              "guide_contents":"<p>\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":1,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":1,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":391,
+                              "element_type":"a",
+                              "position_path":"/html[1]/body[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/a[4]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2347,
+                                    "element_id":391,
+                                    "element_property_config":"attribute",
+                                    "value":"href = forgot-password.html"
+                                 },
+                                 {
+                                    "element_detail_id":2348,
+                                    "element_id":391,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = a"
+                                 },
+                                 {
+                                    "element_detail_id":2349,
+                                    "element_id":391,
+                                    "element_property_config":"attribute",
+                                    "value":"class = collapse-item"
+                                 },
+                                 {
+                                    "element_detail_id":2350,
+                                    "element_id":391,
+                                    "element_property_config":"innerText",
+                                    "value":"innerText = Forgot Password"
+                                 },
+                                 {
+                                    "element_detail_id":2351,
+                                    "element_id":391,
+                                    "element_property_config":"text",
+                                    "value":"text = Forgot Password"
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":358,
+                                 "guide_id":334,
+                                 "next_guide_id":335,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        },
+                        {
+                           "id":335,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"balloon",
+                           "guide_page_url":"/forgot-password.html",
+                           "guide_page_name":"SB Admin 2 - Forgot Password",
+                           "guide_item_notes":"",
+                           "is_first_guide":0,
+                           "guide_details":{
+                              "id":333,
+                              "guide_id":335,
+                              "guide_contents":"<p>\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":2,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":2,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":392,
+                              "element_type":"input[type=email]",
+                              "position_path":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2352,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"type = email"
+                                 },
+                                 {
+                                    "element_detail_id":2353,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"id = exampleInputEmail"
+                                 },
+                                 {
+                                    "element_detail_id":2354,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"aria-describedby = emailHelp"
+                                 },
+                                 {
+                                    "element_detail_id":2355,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"placeholder = Enter Email Address..."
+                                 },
+                                 {
+                                    "element_detail_id":2356,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = input"
+                                 },
+                                 {
+                                    "element_detail_id":2357,
+                                    "element_id":392,
+                                    "element_property_config":"attribute",
+                                    "value":"class = form-control form-control-user"
+                                 },
+                                 {
+                                    "element_detail_id":2358,
+                                    "element_id":392,
+                                    "element_property_config":"text",
+                                    "value":"text = "
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":359,
+                                 "guide_id":335,
+                                 "next_guide_id":336,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        },
+                        {
+                           "id":336,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"auto",
+                           "guide_page_url":"/forgot-password.html",
+                           "guide_page_name":"SB Admin 2 - Forgot Password",
+                           "guide_item_notes":"",
+                           "is_first_guide":0,
+                           "guide_details":{
+                              "id":334,
+                              "guide_id":336,
+                              "guide_contents":"<p>\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":3,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":1,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":393,
+                              "element_type":"a",
+                              "position_path":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/a[1]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2359,
+                                    "element_id":393,
+                                    "element_property_config":"attribute",
+                                    "value":"href = login.html"
+                                 },
+                                 {
+                                    "element_detail_id":2360,
+                                    "element_id":393,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = a"
+                                 },
+                                 {
+                                    "element_detail_id":2361,
+                                    "element_id":393,
+                                    "element_property_config":"attribute",
+                                    "value":"class = btn btn-primary btn-user btn-block"
+                                 },
+                                 {
+                                    "element_detail_id":2362,
+                                    "element_id":393,
+                                    "element_property_config":"innerText",
+                                    "value":"innerText = Reset Password"
+                                 },
+                                 {
+                                    "element_detail_id":2363,
+                                    "element_id":393,
+                                    "element_property_config":"text",
+                                    "value":"text = \n                                            Reset Password\n                                        "
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":360,
+                                 "guide_id":336,
+                                 "next_guide_id":337,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        },
+                        {
+                           "id":337,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"balloon",
+                           "guide_page_url":"/login.html",
+                           "guide_page_name":"SB Admin 2 - Login",
+                           "guide_item_notes":"",
+                           "is_first_guide":0,
+                           "guide_details":{
+                              "id":335,
+                              "guide_id":337,
+                              "guide_contents":"<p>\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":4,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":2,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":394,
+                              "element_type":"input[type=email]",
+                              "position_path":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2364,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"type = email"
+                                 },
+                                 {
+                                    "element_detail_id":2365,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"id = exampleInputEmail"
+                                 },
+                                 {
+                                    "element_detail_id":2366,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"aria-describedby = emailHelp"
+                                 },
+                                 {
+                                    "element_detail_id":2367,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"placeholder = Enter Email Address..."
+                                 },
+                                 {
+                                    "element_detail_id":2368,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = input"
+                                 },
+                                 {
+                                    "element_detail_id":2369,
+                                    "element_id":394,
+                                    "element_property_config":"attribute",
+                                    "value":"class = form-control form-control-user"
+                                 },
+                                 {
+                                    "element_detail_id":2370,
+                                    "element_id":394,
+                                    "element_property_config":"text",
+                                    "value":"text = "
+                                 },
+                                 {
+                                    "element_detail_id":2371,
+                                    "element_id":394,
+                                    "element_property_config":"ident_path",
+                                    "value":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":361,
+                                 "guide_id":337,
+                                 "next_guide_id":338,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        },
+                        {
+                           "id":338,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"balloon",
+                           "guide_page_url":"/login.html",
+                           "guide_page_name":"SB Admin 2 - Login",
+                           "guide_item_notes":"",
+                           "is_first_guide":0,
+                           "guide_details":{
+                              "id":336,
+                              "guide_id":338,
+                              "guide_contents":"<p>\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":5,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":2,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":395,
+                              "element_type":"input[type=password]",
+                              "position_path":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/input[1]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2372,
+                                    "element_id":395,
+                                    "element_property_config":"attribute",
+                                    "value":"type = password"
+                                 },
+                                 {
+                                    "element_detail_id":2373,
+                                    "element_id":395,
+                                    "element_property_config":"attribute",
+                                    "value":"id = exampleInputPassword"
+                                 },
+                                 {
+                                    "element_detail_id":2374,
+                                    "element_id":395,
+                                    "element_property_config":"attribute",
+                                    "value":"placeholder = Password"
+                                 },
+                                 {
+                                    "element_detail_id":2375,
+                                    "element_id":395,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = input"
+                                 },
+                                 {
+                                    "element_detail_id":2376,
+                                    "element_id":395,
+                                    "element_property_config":"attribute",
+                                    "value":"class = form-control form-control-user"
+                                 },
+                                 {
+                                    "element_detail_id":2377,
+                                    "element_id":395,
+                                    "element_property_config":"text",
+                                    "value":"text = "
+                                 },
+                                 {
+                                    "element_detail_id":2378,
+                                    "element_id":395,
+                                    "element_property_config":"ident_path",
+                                    "value":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":362,
+                                 "guide_id":338,
+                                 "next_guide_id":339,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        },
+                        {
+                           "id":339,
+                           "flow_guide_id":86,
+                           "back_button_flag":1,
+                           "back_button_text":"",
+                           "guide_style":"auto",
+                           "guide_page_url":"/login.html",
+                           "guide_page_name":"SB Admin 2 - Login",
+                           "guide_item_notes":"",
+                           "is_first_guide":0,
+                           "guide_details":{
+                              "id":337,
+                              "guide_id":339,
+                              "guide_contents":"<p>\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002</p>",
+                              "x_coordinate":0,
+                              "guide_play_order":6,
+                              "speech_balloon_width":0,
+                              "speech_balloon_position":2,
+                              "speech_balloon_vertical_offset":0,
+                              "speech_balloon_horizontal_offset":0,
+                              "speech_balloon_border_type":1,
+                              "speech_balloon_border_color":1,
+                              "speech_balloon_horn_flg":1,
+                              "speech_balloon_operation_type":2,
+                              "auto_input_type":1,
+                              "auto_setting_value":"",
+                              "wait_time":"0.0",
+                              "is_end_position":0,
+                              "guide_action_override_flg":1,
+                              "guide_pointer_color_type":null,
+                              "image_assets_masters":[
+                                 
+                              ]
+                           },
+                           "element":{
+                              "element_id":396,
+                              "element_type":"a",
+                              "position_path":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/a[1]",
+                              "guide_image_info":"",
+                              "element_details":[
+                                 {
+                                    "element_detail_id":2379,
+                                    "element_id":396,
+                                    "element_property_config":"attribute",
+                                    "value":"href = index.html"
+                                 },
+                                 {
+                                    "element_detail_id":2380,
+                                    "element_id":396,
+                                    "element_property_config":"attribute",
+                                    "value":"id = loginBtn"
+                                 },
+                                 {
+                                    "element_detail_id":2381,
+                                    "element_id":396,
+                                    "element_property_config":"attribute",
+                                    "value":"tagName = a"
+                                 },
+                                 {
+                                    "element_detail_id":2382,
+                                    "element_id":396,
+                                    "element_property_config":"attribute",
+                                    "value":"class = btn btn-primary btn-user btn-block"
+                                 },
+                                 {
+                                    "element_detail_id":2383,
+                                    "element_id":396,
+                                    "element_property_config":"innerText",
+                                    "value":"innerText = Login"
+                                 },
+                                 {
+                                    "element_detail_id":2384,
+                                    "element_id":396,
+                                    "element_property_config":"text",
+                                    "value":"text = \n                                            Login\n                                        "
+                                 }
+                              ]
+                           },
+                           "guide_actions":[
+                              {
+                                 "id":363,
+                                 "guide_id":339,
+                                 "next_guide_id":null,
+                                 "guide_branch_number":0,
+                                 "guide_button_label":"\u6b21\u3078",
+                                 "action_satisfy_type":0
+                              }
+                           ],
+                           "link_guide":[
+                              
+                           ]
+                        }
+                     ]
+                  },
 {
     "id": 769,
     "flow_guide_title": "COUIX_PJ-2083 Direct Page",
