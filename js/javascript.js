@@ -218,7 +218,7 @@ window.s7_data = {
 										{
 											"id": 4425,
 											"guide_id": 4220,
-											"next_guide_id": 4225,
+											"next_guide_id": 4228,
 											"guide_branch_number": 2,
 											"guide_button_label": "次へ次へ3",
 											"action_satisfy_type": 1
@@ -472,7 +472,7 @@ window.s7_data = {
 										"guide_id": 4224,
 										"guide_contents": "<p>確認してください。</p>",
 										"x_coordinate": 0,
-										"guide_play_order": 7,
+										"guide_play_order": 8,
 										"speech_balloon_width": 0,
 										"speech_balloon_position": 2,
 										"speech_balloon_vertical_offset": 0,
@@ -555,7 +555,7 @@ window.s7_data = {
 										"guide_id": 4225,
 										"guide_contents": "<p>確認してください。</p>",
 										"x_coordinate": 0,
-										"guide_play_order": 9,
+										"guide_play_order": 12,
 										"speech_balloon_width": 0,
 										"speech_balloon_position": 2,
 										"speech_balloon_vertical_offset": 0,
@@ -715,7 +715,7 @@ window.s7_data = {
 										"guide_id": 4227,
 										"guide_contents": "<p>確認してください。</p>",
 										"x_coordinate": 1,
-										"guide_play_order": 8,
+										"guide_play_order": 9,
 										"speech_balloon_width": 0,
 										"speech_balloon_position": 2,
 										"speech_balloon_vertical_offset": 0,
@@ -744,6 +744,245 @@ window.s7_data = {
 										{
 											"id": 4424,
 											"guide_id": 4227,
+											"next_guide_id": 4225,
+											"guide_branch_number": 0,
+											"guide_button_label": "次へ",
+											"action_satisfy_type": 0
+										}
+									],
+									"link_guide": []
+								},
+								{
+									"id": 4228,
+									"flow_guide_id": 894,
+									"back_button_flag": 1,
+									"back_button_text": "",
+									"guide_style": "balloon",
+									"guide_page_url": "https://sb-admin-henna.vercel.app/index.html",
+									"guide_page_name": "SB Admin 2 - Dashboard",
+									"guide_item_notes": "",
+									"is_first_guide": 0,
+									"guide_details": {
+										"id": 4175,
+										"guide_id": 4228,
+										"guide_contents": "<p>確認してください。</p>",
+										"x_coordinate": 2,
+										"guide_play_order": 7,
+										"speech_balloon_width": 0,
+										"speech_balloon_position": 2,
+										"speech_balloon_vertical_offset": 0,
+										"speech_balloon_horizontal_offset": 0,
+										"speech_balloon_border_type": 1,
+										"speech_balloon_border_color": 1,
+										"speech_balloon_horn_flg": 1,
+										"speech_balloon_operation_type": 2,
+										"auto_input_type": 1,
+										"auto_setting_value": "",
+										"wait_time": 0,
+										"is_end_position": 0,
+										"flowguides_image_assets": [],
+										"guide_action_override_flg": 5,
+										"guide_pointer_color_type": null,
+										"image_assets_masters": []
+									},
+									"element": {
+										"element_id": 5061,
+										"element_type": "h1",
+										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+										"guide_image_info": "",
+										"element_details": [
+											{
+												"element_detail_id": 27966,
+												"element_id": 5061,
+												"element_property_config": "attribute",
+												"value": "tagName = h1"
+											},
+											{
+												"element_detail_id": 27967,
+												"element_id": 5061,
+												"element_property_config": "attribute",
+												"value": "class = h3 mb-0 text-gray-800"
+											},
+											{
+												"element_detail_id": 27968,
+												"element_id": 5061,
+												"element_property_config": "innerText",
+												"value": "innerText = Dashboard"
+											},
+											{
+												"element_detail_id": 27969,
+												"element_id": 5061,
+												"element_property_config": "text",
+												"value": "text = Dashboard"
+											}
+										]
+									},
+									"guide_actions": [
+										{
+											"id": 4426,
+											"guide_id": 4228,
+											"next_guide_id": 4229,
+											"guide_branch_number": 0,
+											"guide_button_label": "次へ",
+											"action_satisfy_type": 0
+										},
+										{
+											"id": 4428,
+											"guide_id": 4228,
+											"next_guide_id": 4230,
+											"guide_branch_number": 1,
+											"guide_button_label": "次へ次へ2",
+											"action_satisfy_type": 0
+										}
+									],
+									"link_guide": []
+								},
+								{
+									"id": 4229,
+									"flow_guide_id": 894,
+									"back_button_flag": 1,
+									"back_button_text": "",
+									"guide_style": "balloon",
+									"guide_page_url": "https://sb-admin-henna.vercel.app/index.html",
+									"guide_page_name": "SB Admin 2 - Dashboard",
+									"guide_item_notes": "",
+									"is_first_guide": 0,
+									"guide_details": {
+										"id": 4176,
+										"guide_id": 4229,
+										"guide_contents": "<p>確認してください。</p>",
+										"x_coordinate": 2,
+										"guide_play_order": 10,
+										"speech_balloon_width": 0,
+										"speech_balloon_position": 2,
+										"speech_balloon_vertical_offset": 0,
+										"speech_balloon_horizontal_offset": 0,
+										"speech_balloon_border_type": 1,
+										"speech_balloon_border_color": 1,
+										"speech_balloon_horn_flg": 1,
+										"speech_balloon_operation_type": 2,
+										"auto_input_type": 1,
+										"auto_setting_value": "",
+										"wait_time": 0,
+										"is_end_position": 0,
+										"flowguides_image_assets": [],
+										"guide_action_override_flg": 5,
+										"guide_pointer_color_type": null,
+										"image_assets_masters": []
+									},
+									"element": {
+										"element_id": 5062,
+										"element_type": "div",
+										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+										"guide_image_info": "",
+										"element_details": [
+											{
+												"element_detail_id": 27970,
+												"element_id": 5062,
+												"element_property_config": "attribute",
+												"value": "tagName = div"
+											},
+											{
+												"element_detail_id": 27971,
+												"element_id": 5062,
+												"element_property_config": "attribute",
+												"value": "class = card border-left-primary shadow h-100 py-2"
+											},
+											{
+												"element_detail_id": 27972,
+												"element_id": 5062,
+												"element_property_config": "innerText",
+												"value": "innerText = EARNINGS (MONTHLY)\n$40,000"
+											},
+											{
+												"element_detail_id": 27973,
+												"element_id": 5062,
+												"element_property_config": "text",
+												"value": "text = \n                                \n                                    \n                                        \n                                            \n                                                Earnings (Monthly)\n                                            $40,000\n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                            "
+											}
+										]
+									},
+									"guide_actions": [
+										{
+											"id": 4427,
+											"guide_id": 4229,
+											"next_guide_id": 4225,
+											"guide_branch_number": 0,
+											"guide_button_label": "次へ",
+											"action_satisfy_type": 0
+										}
+									],
+									"link_guide": []
+								},
+								{
+									"id": 4230,
+									"flow_guide_id": 894,
+									"back_button_flag": 1,
+									"back_button_text": "",
+									"guide_style": "balloon",
+									"guide_page_url": "https://sb-admin-henna.vercel.app/index.html",
+									"guide_page_name": "SB Admin 2 - Dashboard",
+									"guide_item_notes": "",
+									"is_first_guide": 0,
+									"guide_details": {
+										"id": 4177,
+										"guide_id": 4230,
+										"guide_contents": "<p>確認してください。</p>",
+										"x_coordinate": 3,
+										"guide_play_order": 11,
+										"speech_balloon_width": 0,
+										"speech_balloon_position": 2,
+										"speech_balloon_vertical_offset": 0,
+										"speech_balloon_horizontal_offset": 0,
+										"speech_balloon_border_type": 1,
+										"speech_balloon_border_color": 1,
+										"speech_balloon_horn_flg": 1,
+										"speech_balloon_operation_type": 2,
+										"auto_input_type": 1,
+										"auto_setting_value": "",
+										"wait_time": 0,
+										"is_end_position": 0,
+										"flowguides_image_assets": [],
+										"guide_action_override_flg": 5,
+										"guide_pointer_color_type": null,
+										"image_assets_masters": []
+									},
+									"element": {
+										"element_id": 5063,
+										"element_type": "div",
+										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+										"guide_image_info": "",
+										"element_details": [
+											{
+												"element_detail_id": 27974,
+												"element_id": 5063,
+												"element_property_config": "attribute",
+												"value": "tagName = div"
+											},
+											{
+												"element_detail_id": 27975,
+												"element_id": 5063,
+												"element_property_config": "attribute",
+												"value": "class = card border-left-primary shadow h-100 py-2"
+											},
+											{
+												"element_detail_id": 27976,
+												"element_id": 5063,
+												"element_property_config": "innerText",
+												"value": "innerText = EARNINGS (MONTHLY)\n$40,000"
+											},
+											{
+												"element_detail_id": 27977,
+												"element_id": 5063,
+												"element_property_config": "text",
+												"value": "text = \n                                \n                                    \n                                        \n                                            \n                                                Earnings (Monthly)\n                                            $40,000\n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                            "
+											}
+										]
+									},
+									"guide_actions": [
+										{
+											"id": 4429,
+											"guide_id": 4230,
 											"next_guide_id": 4225,
 											"guide_branch_number": 0,
 											"guide_button_label": "次へ",
