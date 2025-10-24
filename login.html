@@ -97,6 +97,16 @@
         <!-- input.focus(); -->
     <!-- }, 1000); -->
 	<!-- </script> -->
+	
+	<script>
+document.getElementById('exampleInputPassword').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Ngăn trình duyệt tự reload
+        document.getElementById('loginBtn').click(); // Giả lập click vào nút Login
+    }
+});
+</script>
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
