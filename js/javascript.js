@@ -31,508 +31,490 @@ window.s7_data = {
 						}
 					],
 					"result": [
-						{
-							"id": 769,
-							"flow_guide_title": "COUIX_PJ-2083 Direct Page",
-							"flow_guide_description": "COUIX_PJ-2083 【DesiginRenewal】フローガイドデザインの刷新",
-							"flow_guide_page_name": "SB Admin 2 - Dashboard",
-							"flow_guide_page_url": "https://sb-admin-henna.vercel.app/",
-							"group_info_ids": [],
-							"is_public": 0,
-							"guides": [
-								{
-									"id": 1182,
-									"flow_guide_id": 769,
-									"back_button_flag": 1,
-									"back_button_text": "",
-									"guide_style": "auto",
-									"guide_page_url": "https://sb-admin-henna.vercel.app/",
-									"guide_page_name": "SB Admin 2 - Dashboard",
-									"guide_item_notes": "",
-									"is_first_guide": 1,
-									"guide_details": {
-										"id": 1182,
-										"guide_id": 1182,
-										"guide_contents": "<p>クリックしてください。</p>",
-										"x_coordinate": 0,
-										"guide_play_order": 1,
-										"speech_balloon_width": 0,
-										"speech_balloon_position": 2,
-										"speech_balloon_vertical_offset": 0,
-										"speech_balloon_horizontal_offset": 0,
-										"speech_balloon_border_type": 1,
-										"speech_balloon_border_color": 1,
-										"speech_balloon_horn_flg": 1,
-										"speech_balloon_operation_type": 2,
-										"auto_input_type": 1,
-										"auto_setting_value": "",
-										"wait_time": 0,
-										"is_end_position": 0,
-										"flowguides_image_assets": [],
-										"guide_action_override_flg": 1,
-										"guide_pointer_color_type": null,
-										"image_assets_masters": []
-									},
-									"element": {
-										"element_id": 1469,
-										"element_type": "a",
-										"position_path": "/html[1]/body[1]/div[1]/ul[1]/li[4]/a[1]",
-										"guide_image_info": "",
-										"element_details": [
-											{
-												"element_detail_id": 9215,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "href = #"
-											},
-											{
-												"element_detail_id": 9216,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "data-toggle = collapse"
-											},
-											{
-												"element_detail_id": 9217,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "data-target = #collapsePages"
-											},
-											{
-												"element_detail_id": 9218,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "aria-expanded = true"
-											},
-											{
-												"element_detail_id": 9219,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "aria-controls = collapsePages"
-											},
-											{
-												"element_detail_id": 9220,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "tagName = a"
-											},
-											{
-												"element_detail_id": 9221,
-												"element_id": 1469,
-												"element_property_config": "attribute",
-												"value": "class = nav-link collapsed"
-											},
-											{
-												"element_detail_id": 9222,
-												"element_id": 1469,
-												"element_property_config": "innerText",
-												"value": "innerText =  Pages"
-											},
-											{
-												"element_detail_id": 9223,
-												"element_id": 1469,
-												"element_property_config": "text",
-												"value": "text = \n                    \n                    Pages\n                "
-											},
-											{
-												"element_detail_id": 9224,
-												"element_id": 1469,
-												"element_property_config": "ident_path",
-												"value": "/html[1]/body[1]/div[1]/ul[1]/li[2]/a[1]"
-											}
-										]
-									},
-									"guide_actions": [
-										{
-											"id": 1211,
-											"guide_id": 1182,
-											"next_guide_id": 1183,
-											"guide_branch_number": 0,
-											"guide_button_label": "次へ",
-											"action_satisfy_type": 0
-										}
-									],
-									"link_guide": []
-								},
-								{
-									"id": 1183,
-									"flow_guide_id": 769,
-									"back_button_flag": 1,
-									"back_button_text": "",
-									"guide_style": "auto",
-									"guide_page_url": "https://sb-admin-henna.vercel.app/",
-									"guide_page_name": "SB Admin 2 - Dashboard",
-									"guide_item_notes": "",
-									"is_first_guide": 0,
-									"guide_details": {
-										"id": 1183,
-										"guide_id": 1183,
-										"guide_contents": "<p>クリックしてください。</p>",
-										"x_coordinate": 0,
-										"guide_play_order": 2,
-										"speech_balloon_width": 0,
-										"speech_balloon_position": 2,
-										"speech_balloon_vertical_offset": 0,
-										"speech_balloon_horizontal_offset": 0,
-										"speech_balloon_border_type": 1,
-										"speech_balloon_border_color": 1,
-										"speech_balloon_horn_flg": 1,
-										"speech_balloon_operation_type": 2,
-										"auto_input_type": 1,
-										"auto_setting_value": "",
-										"wait_time": 0,
-										"is_end_position": 0,
-										"flowguides_image_assets": [],
-										"guide_action_override_flg": 1,
-										"guide_pointer_color_type": null,
-										"image_assets_masters": []
-									},
-									"element": {
-										"element_id": 1470,
-										"element_type": "a",
-										"position_path": "/html[1]/body[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/a[1]",
-										"guide_image_info": "",
-										"element_details": [
-											{
-												"element_detail_id": 9225,
-												"element_id": 1470,
-												"element_property_config": "attribute",
-												"value": "href = login.html"
-											},
-											{
-												"element_detail_id": 9226,
-												"element_id": 1470,
-												"element_property_config": "attribute",
-												"value": "tagName = a"
-											},
-											{
-												"element_detail_id": 9227,
-												"element_id": 1470,
-												"element_property_config": "attribute",
-												"value": "class = collapse-item"
-											},
-											{
-												"element_detail_id": 9228,
-												"element_id": 1470,
-												"element_property_config": "innerText",
-												"value": "innerText = Login"
-											},
-											{
-												"element_detail_id": 9229,
-												"element_id": 1470,
-												"element_property_config": "text",
-												"value": "text = Login"
-											}
-										]
-									},
-									"guide_actions": [
-										{
-											"id": 1212,
-											"guide_id": 1183,
-											"next_guide_id": 1184,
-											"guide_branch_number": 0,
-											"guide_button_label": "次へ",
-											"action_satisfy_type": 0
-										}
-									],
-									"link_guide": []
-								},
-								{
-									"id": 1184,
-									"flow_guide_id": 769,
-									"back_button_flag": 1,
-									"back_button_text": "",
-									"guide_style": "balloon",
-									"guide_page_url": "https://sb-admin-henna.vercel.app/login.html",
-									"guide_page_name": "SB Admin 2 - Login",
-									"guide_item_notes": "",
-									"is_first_guide": 0,
-									"guide_details": {
-										"id": 1184,
-										"guide_id": 1184,
-										"guide_contents": "<p>入力してください。</p>",
-										"x_coordinate": 0,
-										"guide_play_order": 3,
-										"speech_balloon_width": 0,
-										"speech_balloon_position": 2,
-										"speech_balloon_vertical_offset": 0,
-										"speech_balloon_horizontal_offset": 0,
-										"speech_balloon_border_type": 1,
-										"speech_balloon_border_color": 1,
-										"speech_balloon_horn_flg": 1,
-										"speech_balloon_operation_type": 2,
-										"auto_input_type": 1,
-										"auto_setting_value": "",
-										"wait_time": 0,
-										"is_end_position": 0,
-										"flowguides_image_assets": [],
-										"guide_action_override_flg": 2,
-										"guide_pointer_color_type": null,
-										"image_assets_masters": []
-									},
-									"element": {
-										"element_id": 1471,
-										"element_type": "input[type=email]",
-										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]",
-										"guide_image_info": "",
-										"element_details": [
-											{
-												"element_detail_id": 9230,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "type = email"
-											},
-											{
-												"element_detail_id": 9231,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "id = exampleInputEmail"
-											},
-											{
-												"element_detail_id": 9232,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "aria-describedby = emailHelp"
-											},
-											{
-												"element_detail_id": 9233,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "placeholder = Enter Email Address..."
-											},
-											{
-												"element_detail_id": 9234,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "tagName = input"
-											},
-											{
-												"element_detail_id": 9235,
-												"element_id": 1471,
-												"element_property_config": "attribute",
-												"value": "class = form-control form-control-user"
-											},
-											{
-												"element_detail_id": 9236,
-												"element_id": 1471,
-												"element_property_config": "text",
-												"value": "text = "
-											},
-											{
-												"element_detail_id": 9237,
-												"element_id": 1471,
-												"element_property_config": "ident_path",
-												"value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
-											}
-										]
-									},
-									"guide_actions": [
-										{
-											"id": 1213,
-											"guide_id": 1184,
-											"next_guide_id": 1185,
-											"guide_branch_number": 0,
-											"guide_button_label": "次へ",
-											"action_satisfy_type": 0
-										}
-									],
-									"link_guide": []
-								},
-								{
-									"id": 1185,
-									"flow_guide_id": 769,
-									"back_button_flag": 1,
-									"back_button_text": "",
-									"guide_style": "balloon",
-									"guide_page_url": "https://sb-admin-henna.vercel.app/login.html",
-									"guide_page_name": "SB Admin 2 - Login",
-									"guide_item_notes": "",
-									"is_first_guide": 0,
-									"guide_details": {
-										"id": 1185,
-										"guide_id": 1185,
-										"guide_contents": "<p>入力してください。</p>",
-										"x_coordinate": 0,
-										"guide_play_order": 4,
-										"speech_balloon_width": 0,
-										"speech_balloon_position": 2,
-										"speech_balloon_vertical_offset": 0,
-										"speech_balloon_horizontal_offset": 0,
-										"speech_balloon_border_type": 1,
-										"speech_balloon_border_color": 1,
-										"speech_balloon_horn_flg": 1,
-										"speech_balloon_operation_type": 2,
-										"auto_input_type": 1,
-										"auto_setting_value": "",
-										"wait_time": 0,
-										"is_end_position": 0,
-										"flowguides_image_assets": [],
-										"guide_action_override_flg": 2,
-										"guide_pointer_color_type": null,
-										"image_assets_masters": []
-									},
-									"element": {
-										"element_id": 1479,
-										"element_type": "input[type=password]",
-										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/input[1]",
-										"guide_image_info": "",
-										"element_details": [
-											{
-												"element_detail_id": 9297,
-												"element_id": 1479,
-												"element_property_config": "attribute",
-												"value": "type = password"
-											},
-											{
-												"element_detail_id": 9298,
-												"element_id": 1479,
-												"element_property_config": "attribute",
-												"value": "id = exampleInputPassword"
-											},
-											{
-												"element_detail_id": 9299,
-												"element_id": 1479,
-												"element_property_config": "attribute",
-												"value": "placeholder = Password"
-											},
-											{
-												"element_detail_id": 9300,
-												"element_id": 1479,
-												"element_property_config": "attribute",
-												"value": "tagName = input"
-											},
-											{
-												"element_detail_id": 9301,
-												"element_id": 1479,
-												"element_property_config": "attribute",
-												"value": "class = form-control form-control-user"
-											},
-											{
-												"element_detail_id": 9302,
-												"element_id": 1479,
-												"element_property_config": "text",
-												"value": "text = "
-											},
-											{
-												"element_detail_id": 9303,
-												"element_id": 1479,
-												"element_property_config": "ident_path",
-												"value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
-											}
-										]
-									},
-									"guide_actions": [
-										{
-											"id": 1214,
-											"guide_id": 1185,
-											"next_guide_id": 1186,
-											"guide_branch_number": 0,
-											"guide_button_label": "次へ",
-											"action_satisfy_type": 0
-										}
-									],
-									"link_guide": []
-								},
-								{
-									"id": 1186,
-									"flow_guide_id": 769,
-									"back_button_flag": 1,
-									"back_button_text": "",
-									"guide_style": "balloon",
-									"guide_page_url": "https://sb-admin-henna.vercel.app/index.html",
-									"guide_page_name": "SB Admin 2 - Dashboard",
-									"guide_item_notes": "",
-									"is_first_guide": 0,
-									"guide_details": {
-										"id": 1186,
-										"guide_id": 1186,
-										"guide_contents": "<p>入力してください。</p>",
-										"x_coordinate": 0,
-										"guide_play_order": 5,
-										"speech_balloon_width": 0,
-										"speech_balloon_position": 2,
-										"speech_balloon_vertical_offset": 0,
-										"speech_balloon_horizontal_offset": 0,
-										"speech_balloon_border_type": 1,
-										"speech_balloon_border_color": 1,
-										"speech_balloon_horn_flg": 1,
-										"speech_balloon_operation_type": 2,
-										"auto_input_type": 1,
-										"auto_setting_value": "",
-										"wait_time": 0,
-										"is_end_position": 0,
-										"flowguides_image_assets": [],
-										"guide_action_override_flg": 2,
-										"guide_pointer_color_type": null,
-										"image_assets_masters": []
-									},
-									"element": {
-										"element_id": 1480,
-										"element_type": "input[type=text]",
-										"position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/nav[1]/form[1]/div[1]/input[1]",
-										"guide_image_info": "",
-										"element_details": [
-											{
-												"element_detail_id": 9304,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "type = text"
-											},
-											{
-												"element_detail_id": 9305,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "placeholder = Search for..."
-											},
-											{
-												"element_detail_id": 9306,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "aria-label = Search"
-											},
-											{
-												"element_detail_id": 9307,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "aria-describedby = basic-addon2"
-											},
-											{
-												"element_detail_id": 9308,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "tagName = input"
-											},
-											{
-												"element_detail_id": 9309,
-												"element_id": 1480,
-												"element_property_config": "attribute",
-												"value": "class = form-control bg-light border-0 small"
-											},
-											{
-												"element_detail_id": 9310,
-												"element_id": 1480,
-												"element_property_config": "text",
-												"value": "text = "
-											}
-										]
-									},
-									"guide_actions": [
-										{
-											"id": 1215,
-											"guide_id": 1186,
-											"next_guide_id": null,
-											"guide_branch_number": 0,
-											"guide_button_label": "次へ",
-											"action_satisfy_type": 0
-										}
-									],
-									"link_guide": []
-								}
-							],
-							"flowguide_property_details": [],
-							"is_owner": true,
-							"is_auto": 0,
-							"is_favorite": 0
-						},
+{
+    "id": 769,
+    "flow_guide_title": "COUIX_PJ-2083 Direct Page",
+    "flow_guide_description": "COUIX_PJ-2083 【DesiginRenewal】フローガイドデザインの刷新",
+    "flow_guide_page_name": "SB Admin 2 - Dashboard",
+    "flow_guide_page_url": "https://sb-admin-henna.vercel.app/",
+    "group_info_ids": [],
+    "is_public": 0,
+    "guides": [
+        {
+            "id": 1182,
+            "flow_guide_id": 769,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "auto",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/",
+            "guide_page_name": "SB Admin 2 - Dashboard",
+            "guide_item_notes": "",
+            "is_first_guide": 1,
+            "guide_details": {
+                "id": 1182,
+                "guide_id": 1182,
+                "guide_contents": "<p>クリックしてください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 1,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 1,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 1469,
+                "element_type": "a",
+                "position_path": "/html[1]/body[1]/div[1]/ul[1]/li[4]/a[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 9215,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "href = #"
+                    },
+                    {
+                        "element_detail_id": 9216,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "data-toggle = collapse"
+                    },
+                    {
+                        "element_detail_id": 9217,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "data-target = #collapsePages"
+                    },
+                    {
+                        "element_detail_id": 9218,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "aria-expanded = true"
+                    },
+                    {
+                        "element_detail_id": 9219,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "aria-controls = collapsePages"
+                    },
+                    {
+                        "element_detail_id": 9220,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "tagName = a"
+                    },
+                    {
+                        "element_detail_id": 9221,
+                        "element_id": 1469,
+                        "element_property_config": "attribute",
+                        "value": "class = nav-link collapsed"
+                    },
+                    {
+                        "element_detail_id": 9222,
+                        "element_id": 1469,
+                        "element_property_config": "innerText",
+                        "value": "innerText =  Pages"
+                    },
+                    {
+                        "element_detail_id": 9223,
+                        "element_id": 1469,
+                        "element_property_config": "text",
+                        "value": "text = \n                    \n                    Pages\n                "
+                    },
+                    {
+                        "element_detail_id": 9224,
+                        "element_id": 1469,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/ul[1]/li[2]/a[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 1211,
+                    "guide_id": 1182,
+                    "next_guide_id": 1183,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 1183,
+            "flow_guide_id": 769,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "auto",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/",
+            "guide_page_name": "SB Admin 2 - Dashboard",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 1183,
+                "guide_id": 1183,
+                "guide_contents": "<p>クリックしてください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 2,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 1,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 1470,
+                "element_type": "a",
+                "position_path": "/html[1]/body[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/a[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 9225,
+                        "element_id": 1470,
+                        "element_property_config": "attribute",
+                        "value": "href = login.html"
+                    },
+                    {
+                        "element_detail_id": 9226,
+                        "element_id": 1470,
+                        "element_property_config": "attribute",
+                        "value": "tagName = a"
+                    },
+                    {
+                        "element_detail_id": 9227,
+                        "element_id": 1470,
+                        "element_property_config": "attribute",
+                        "value": "class = collapse-item"
+                    },
+                    {
+                        "element_detail_id": 9228,
+                        "element_id": 1470,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Login"
+                    },
+                    {
+                        "element_detail_id": 9229,
+                        "element_id": 1470,
+                        "element_property_config": "text",
+                        "value": "text = Login"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 1212,
+                    "guide_id": 1183,
+                    "next_guide_id": 1184,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 1184,
+            "flow_guide_id": 769,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/login.html",
+            "guide_page_name": "SB Admin 2 - Login",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 1184,
+                "guide_id": 1184,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 3,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 1471,
+                "element_type": "input[type=email]",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 9230,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "type = email"
+                    },
+                    {
+                        "element_detail_id": 9231,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "id = exampleInputEmail"
+                    },
+                    {
+                        "element_detail_id": 9232,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "aria-describedby = emailHelp"
+                    },
+                    {
+                        "element_detail_id": 9233,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Enter Email Address..."
+                    },
+                    {
+                        "element_detail_id": 9234,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "tagName = input"
+                    },
+                    {
+                        "element_detail_id": 9235,
+                        "element_id": 1471,
+                        "element_property_config": "attribute",
+                        "value": "class = form-control form-control-user"
+                    },
+                    {
+                        "element_detail_id": 9236,
+                        "element_id": 1471,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    },
+                    {
+                        "element_detail_id": 9237,
+                        "element_id": 1471,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 1213,
+                    "guide_id": 1184,
+                    "next_guide_id": 1185,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 1185,
+            "flow_guide_id": 769,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/login.html",
+            "guide_page_name": "SB Admin 2 - Login",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 1185,
+                "guide_id": 1185,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 4,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 1479,
+                "element_type": "input[type=password]",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/input[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 9297,
+                        "element_id": 1479,
+                        "element_property_config": "attribute",
+                        "value": "type = password"
+                    },
+                    {
+                        "element_detail_id": 9298,
+                        "element_id": 1479,
+                        "element_property_config": "attribute",
+                        "value": "id = exampleInputPassword"
+                    },
+                    {
+                        "element_detail_id": 9299,
+                        "element_id": 1479,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Password"
+                    },
+                    {
+                        "element_detail_id": 9300,
+                        "element_id": 1479,
+                        "element_property_config": "attribute",
+                        "value": "tagName = input"
+                    },
+                    {
+                        "element_detail_id": 9301,
+                        "element_id": 1479,
+                        "element_property_config": "attribute",
+                        "value": "class = form-control form-control-user"
+                    },
+                    {
+                        "element_detail_id": 9302,
+                        "element_id": 1479,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    },
+                    {
+                        "element_detail_id": 9303,
+                        "element_id": 1479,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 1214,
+                    "guide_id": 1185,
+                    "next_guide_id": 1186,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 1186,
+            "flow_guide_id": 769,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/index.html",
+            "guide_page_name": "SB Admin 2 - Dashboard",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 1186,
+                "guide_id": 1186,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 5,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 1481,
+                "element_type": "h1",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 9311,
+                        "element_id": 1481,
+                        "element_property_config": "attribute",
+                        "value": "tagName = h1"
+                    },
+                    {
+                        "element_detail_id": 9312,
+                        "element_id": 1481,
+                        "element_property_config": "attribute",
+                        "value": "class = h3 mb-0 text-gray-800"
+                    },
+                    {
+                        "element_detail_id": 9313,
+                        "element_id": 1481,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Dashboard"
+                    },
+                    {
+                        "element_detail_id": 9314,
+                        "element_id": 1481,
+                        "element_property_config": "text",
+                        "value": "text = Dashboard"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 1215,
+                    "guide_id": 1186,
+                    "next_guide_id": null,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        }
+    ],
+    "flowguide_property_details": [],
+    "is_owner": true,
+    "is_auto": 0,
+    "is_favorite": 0
+},
 						{
 							"id": 759,
 							"flow_guide_title": "SB Admin Test フローガイドタイトル",
