@@ -3,7 +3,8 @@ window.s7_data = {
 		"version": 2,
 		"do_snippet_flag": false,
 		"do_url": "https://sb-admin-henna.vercel.app/",
-		"couix_api_usage": 0
+		"couix_api_usage": 0,
+		"ai_chatbot_usage": true
 	},
 	"flow_guides": {
 		"options": {
