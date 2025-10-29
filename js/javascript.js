@@ -13,25 +13,9 @@ window.s7_data = {
 			"pages": [],
 			"groups": []
 		},
-		"flow_guide_sections": [
-			{
-				"section_title": "TEST group 6",
-				"section_display_order": 1,
-				"flow_guides": {
-					"total": 4,
-					"source": [
-						{
-							"flow_guide_id": 759,
-							"is_favorite": false,
-							"is_auto": 0
-						},
-						{
-							"flow_guide_id": 760,
-							"is_favorite": false,
-							"is_auto": 0
-						}
-					],
-					"result": [
+		"flow_guides": {
+			"total": 0,
+			"result": [
 						{
 							"id": 897,
 							"flow_guide_title": "COUIX_PJ-2083 - テストリンクガイド",
@@ -16141,10 +16125,8 @@ window.s7_data = {
 								}
 							]
 						}
-					]
-				}
-			}
-		]
+			]
+		}
 	},
 	"notes": {
 		"options": {
@@ -16152,8 +16134,21 @@ window.s7_data = {
 			"pages": [],
 			"groups": []
 		},
-		"notes_sections": [],
-		"note_length": 0
+		"notes": {
+			"total": 0,
+			"result": []
+		}
+	},
+	"masks": {
+		"options": {
+			"editors": [],
+			"pages": [],
+			"groups": []
+		},
+		"masks": {
+			"total": 0,
+			"result": []
+		}
 	},
 	"icon_data": {
 		"icons": [
