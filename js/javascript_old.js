@@ -1,10 +1,11 @@
 window.s7_data = {
 	"config": {
-		"version": 1,
-		"group_id": 6,
-		"organization_id": null,
+		"version": 2,
+		"group_id": null,
+		"organization_id": 1,
 		"do_snippet_flag": false,
-		"do_url": "https://sb-admin-henna.vercel.app/"
+		"do_url": "https://sb-admin-henna.vercel.app/",
+		"couix_api_usage": 0
 	},
 	"flow_guides": {
 		"options": {
