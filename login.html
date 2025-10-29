@@ -124,78 +124,78 @@
     <!-- }, 1000); -->
     <!-- </script> -->
 
-    <script>
-      document
-        .getElementById("exampleInputPassword")
-        .addEventListener("keydown", function (event) {
-          if (event.key === "Enter") {
-            event.preventDefault(); // Ngăn trình duyệt tự reload
-            document.getElementById("loginBtn").click(); // Giả lập click vào nút Login
-          }
-        });
-    </script>
+    <!-- <script> -->
+      <!-- document -->
+        <!-- .getElementById("exampleInputPassword") -->
+        <!-- .addEventListener("keydown", function (event) { -->
+          <!-- if (event.key === "Enter") { -->
+            <!-- event.preventDefault(); // Ngăn trình duyệt tự reload -->
+            <!-- document.getElementById("loginBtn").click(); // Giả lập click vào nút Login -->
+          <!-- } -->
+        <!-- }); -->
+    <!-- </script> -->
 
-    <script>
-      // Tạo div để hiển thị log
-      const logDiv = document.createElement("div");
-      logDiv.id = "mobile-log";
-      logDiv.style.cssText = `
-          position: fixed;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          max-height: 200px;
-          overflow-y: auto;
-          background: rgba(0,0,0,0.9);
-          color: #0f0;
-          font-family: monospace;
-          font-size: 12px;
-          padding: 10px;
-          z-index: 999999;
-          white-space: pre-wrap;
-          word-break: break-all;
-        `;
-      document.body.appendChild(logDiv);
+    <!-- <script> -->
+      <!-- // Tạo div để hiển thị log -->
+      <!-- const logDiv = document.createElement("div"); -->
+      <!-- logDiv.id = "mobile-log"; -->
+      <!-- logDiv.style.cssText = ` -->
+          <!-- position: fixed; -->
+          <!-- bottom: 0; -->
+          <!-- left: 0; -->
+          <!-- right: 0; -->
+          <!-- max-height: 200px; -->
+          <!-- overflow-y: auto; -->
+          <!-- background: rgba(0,0,0,0.9); -->
+          <!-- color: #0f0; -->
+          <!-- font-family: monospace; -->
+          <!-- font-size: 12px; -->
+          <!-- padding: 10px; -->
+          <!-- z-index: 999999; -->
+          <!-- white-space: pre-wrap; -->
+          <!-- word-break: break-all; -->
+        <!-- `; -->
+      <!-- document.body.appendChild(logDiv); -->
 
-      // Override console.log
-      const originalLog = console.log;
-      console.log = function (...args) {
-        originalLog.apply(console, args);
-        const text = args
-          .map((arg) =>
-            typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg
-          )
-          .join(" ");
-        logDiv.innerHTML += text + "<br>";
-        logDiv.scrollTop = logDiv.scrollHeight;
-      };
+      <!-- // Override console.log -->
+      <!-- const originalLog = console.log; -->
+      <!-- console.log = function (...args) { -->
+        <!-- originalLog.apply(console, args); -->
+        <!-- const text = args -->
+          <!-- .map((arg) => -->
+            <!-- typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg -->
+          <!-- ) -->
+          <!-- .join(" "); -->
+        <!-- logDiv.innerHTML += text + "<br>"; -->
+        <!-- logDiv.scrollTop = logDiv.scrollHeight; -->
+      <!-- }; -->
 
-      // Test với input của bạn
-      const input = document.getElementById("exampleInputEmail");
-      console.log("=== START LOGGING ===");
+      <!-- // Test với input của bạn -->
+      <!-- const input = document.getElementById("exampleInputEmail"); -->
+      <!-- console.log("=== START LOGGING ==="); -->
 
-      //   [
-      //     "beforeinput",
-      //     "input",
-      //     "keydown",
-      //     "keypress",
-      //     "keyup",
-      //     "blur",
-      //     "focusout",
-      //   ].forEach((evt) => {
-      //     input.addEventListener(evt, (e) => {
-      //       console.log(`${evt}: ${e.inputType || e.key || "no-key"}`);
-      //     });
-      //   });
-      input.addEventListener("focusout", (e) => {
-        console.log("focusout - relatedTarget:", e.relatedTarget);
-        console.log("activeElement after focusout:", document.activeElement);
+      <!-- //   [ -->
+      <!-- //     "beforeinput", -->
+      <!-- //     "input", -->
+      <!-- //     "keydown", -->
+      <!-- //     "keypress", -->
+      <!-- //     "keyup", -->
+      <!-- //     "blur", -->
+      <!-- //     "focusout", -->
+      <!-- //   ].forEach((evt) => { -->
+      <!-- //     input.addEventListener(evt, (e) => { -->
+      <!-- //       console.log(`${evt}: ${e.inputType || e.key || "no-key"}`); -->
+      <!-- //     }); -->
+      <!-- //   }); -->
+      <!-- input.addEventListener("focusout", (e) => { -->
+        <!-- console.log("focusout - relatedTarget:", e.relatedTarget); -->
+        <!-- console.log("activeElement after focusout:", document.activeElement); -->
 
-        setTimeout(() => {
-          console.log("activeElement after 100ms:", document.activeElement);
-        }, 100);
-      });
-    </script>
+        <!-- setTimeout(() => { -->
+          <!-- console.log("activeElement after 100ms:", document.activeElement); -->
+        <!-- }, 100); -->
+      <!-- }); -->
+    <!-- </script> -->
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
