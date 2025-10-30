@@ -16276,6 +16276,146 @@ window.s7_data = {
 		"notes": {
 			"total": 245,
 			"result": [
+			{
+    "id": 868,
+    "group_info_ids": [],
+    "link_guide": [],
+    "element": {
+        "element_id": 5110,
+        "element_type": "a",
+        "guide_image_info": "",
+        "position_path": "/html[1]/body[1]/div[1]/ul[1]/li[2]/a[1]",
+        "element_details": [
+            {
+                "element_detail_id": 28289,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "href = #"
+            },
+            {
+                "element_detail_id": 28290,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "data-toggle = collapse"
+            },
+            {
+                "element_detail_id": 28291,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "data-target = #collapseTwo"
+            },
+            {
+                "element_detail_id": 28292,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "aria-expanded = true"
+            },
+            {
+                "element_detail_id": 28293,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "aria-controls = collapseTwo"
+            },
+            {
+                "element_detail_id": 28294,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "tagName = a"
+            },
+            {
+                "element_detail_id": 28295,
+                "element_id": 5110,
+                "element_property_config": "attribute",
+                "value": "class = nav-link collapsed"
+            },
+            {
+                "element_detail_id": 28296,
+                "element_id": 5110,
+                "element_property_config": "innerText",
+                "value": "innerText =  Components"
+            },
+            {
+                "element_detail_id": 28297,
+                "element_id": 5110,
+                "element_property_config": "text",
+                "value": "text = \n                    \n                    Components\n                "
+            },
+            {
+                "element_detail_id": 28298,
+                "element_id": 5110,
+                "element_property_config": "ident_path",
+                "value": "/html[1]/body[1]/div[1]/ul[1]/li[2]/a[1]"
+            }
+        ]
+    },
+    "note_page_name": "SB Admin 2 - Dashboard",
+    "note_page_url": "https://sb-admin-henna.vercel.app/",
+    "content": "<p>This is components</p>",
+    "is_public": 2,
+    "view_scope_flag": 0,
+    "note_icon_type": 1,
+    "note_icon_color_type": 7,
+    "note_icon_size": 30,
+    "note_icon_position": 1,
+    "note_icon_position_tb": 0,
+    "note_icon_position_lr": 0,
+    "type": 1,
+    "is_owner": true,
+    "image_assets_masters": [],
+    "note_title": "Components"
+},
+			{
+    "id": 867,
+    "group_info_ids": [],
+    "link_guide": [],
+    "element": {
+        "element_id": 5109,
+        "element_type": "h1",
+        "guide_image_info": "",
+        "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+        "element_details": [
+            {
+                "element_detail_id": 28285,
+                "element_id": 5109,
+                "element_property_config": "attribute",
+                "value": "tagName = h1"
+            },
+            {
+                "element_detail_id": 28286,
+                "element_id": 5109,
+                "element_property_config": "attribute",
+                "value": "class = h3 mb-0 text-gray-800"
+            },
+            {
+                "element_detail_id": 28287,
+                "element_id": 5109,
+                "element_property_config": "innerText",
+                "value": "innerText = Dashboard"
+            },
+            {
+                "element_detail_id": 28288,
+                "element_id": 5109,
+                "element_property_config": "text",
+                "value": "text = Dashboard"
+            }
+        ]
+    },
+    "note_page_name": "SB Admin 2 - Dashboard",
+    "note_page_url": "https://sb-admin-henna.vercel.app/",
+    "content": "<p>This is a&nbsp;<span>DashBoard</span><br></p>",
+    "is_public": 2,
+    "view_scope_flag": 0,
+    "note_icon_type": 1,
+    "note_icon_color_type": 7,
+    "note_icon_size": 30,
+    "note_icon_position": 1,
+    "note_icon_position_tb": 0,
+    "note_icon_position_lr": 0,
+    "type": 1,
+    "is_owner": true,
+    "image_assets_masters": [],
+    "note_title": "DashBoard"
+},
 				{
 					"id": 1,
 					"account_info": {
