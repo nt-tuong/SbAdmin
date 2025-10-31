@@ -1,6 +1,6 @@
 window.s7_data = {
 	"config": {
-		"version": 2,
+		"version": 1,
 		"group_id": null,
 		"organization_id": 1,
 		"do_snippet_flag": false,
