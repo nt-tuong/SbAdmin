@@ -19,6 +19,20 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+	
+	<style>
+	.modal2 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px 30px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 8px;
+      z-index: 9999;
+    }
+	</style>
 
 </head>
 
@@ -85,6 +99,10 @@
             </div>
 
         </div>
+		
+		<div class="modal2">
+			Đây là div position: fixed và được canh giữa
+		</div>
 
     </div>
 	<!-- <script> -->
@@ -150,6 +168,7 @@
       //       console.log(`${evt}: ${e.inputType || e.key || "no-key"}`);
       //     });
       //   });
+	  
       input.addEventListener("focusout", (e) => {
         console.log("=== START LOGGING focusout EVENT ===");
         console.log("focusout - relatedTarget:", e.relatedTarget);
@@ -178,7 +197,7 @@
     <script src="js/test-shepherd.js"></script>
 	
 	<!-- import script snippet -->
-	<script type="module" src="js/javascript.js"></script>
+	<!-- <script type="module" src="js/javascript.js"></script> -->
 	
 	<!-- <script type="module" src="https://cdn.jsdelivr.net/gh/nt-tuong/COUIX@main/javascript.js"></script> -->
 
