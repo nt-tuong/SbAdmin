@@ -17,6 +17,473 @@ window.s7_data = {
 		"flow_guides": {
 			"total": 0,
 			"result": [
+				{
+    "id": 976,
+    "flow_guide_title": "[COUIX_2363]",
+    "flow_guide_description": "",
+    "flow_guide_page_name": "React App",
+    "flow_guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+    "group_info_ids": [],
+    "is_public": 0,
+    "guides": [
+        {
+            "id": 2134,
+            "flow_guide_id": 976,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+            "guide_page_name": "React App",
+            "guide_item_notes": "",
+            "is_first_guide": 1,
+            "guide_details": {
+                "id": 2134,
+                "guide_id": 2134,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 1,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 2602,
+                "element_type": "input[type=text]",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15781,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Enter Title"
+                    },
+                    {
+                        "element_detail_id": 15782,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "data-testid = title-input"
+                    },
+                    {
+                        "element_detail_id": 15783,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "type = text"
+                    },
+                    {
+                        "element_detail_id": 15784,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "name = title"
+                    },
+                    {
+                        "element_detail_id": 15785,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "tagName = input"
+                    },
+                    {
+                        "element_detail_id": 15786,
+                        "element_id": 2602,
+                        "element_property_config": "attribute",
+                        "value": "class = w-100"
+                    },
+                    {
+                        "element_detail_id": 15787,
+                        "element_id": 2602,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2340,
+                    "guide_id": 2134,
+                    "next_guide_id": 2135,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 2135,
+            "flow_guide_id": 976,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+            "guide_page_name": "React App",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 2135,
+                "guide_id": 2135,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 2,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 2603,
+                "element_type": "textarea",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15788,
+                        "element_id": 2603,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Enter Description"
+                    },
+                    {
+                        "element_detail_id": 15789,
+                        "element_id": 2603,
+                        "element_property_config": "attribute",
+                        "value": "name = description"
+                    },
+                    {
+                        "element_detail_id": 15790,
+                        "element_id": 2603,
+                        "element_property_config": "attribute",
+                        "value": "data-testid = description-input"
+                    },
+                    {
+                        "element_detail_id": 15791,
+                        "element_id": 2603,
+                        "element_property_config": "attribute",
+                        "value": "tagName = textarea"
+                    },
+                    {
+                        "element_detail_id": 15792,
+                        "element_id": 2603,
+                        "element_property_config": "attribute",
+                        "value": "class = mt-10 w-100"
+                    },
+                    {
+                        "element_detail_id": 15793,
+                        "element_id": 2603,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2341,
+                    "guide_id": 2135,
+                    "next_guide_id": 2136,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 2136,
+            "flow_guide_id": 976,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "auto",
+            "guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+            "guide_page_name": "React App",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 2136,
+                "guide_id": 2136,
+                "guide_contents": "<p>クリックしてください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 3,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 1,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 2604,
+                "element_type": "button",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15794,
+                        "element_id": 2604,
+                        "element_property_config": "attribute",
+                        "value": "data-testid = create-button"
+                    },
+                    {
+                        "element_detail_id": 15795,
+                        "element_id": 2604,
+                        "element_property_config": "attribute",
+                        "value": "tagName = button"
+                    },
+                    {
+                        "element_detail_id": 15796,
+                        "element_id": 2604,
+                        "element_property_config": "attribute",
+                        "value": "class = mt-10"
+                    },
+                    {
+                        "element_detail_id": 15797,
+                        "element_id": 2604,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Create Post"
+                    },
+                    {
+                        "element_detail_id": 15798,
+                        "element_id": 2604,
+                        "element_property_config": "text",
+                        "value": "text = Create Post"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2342,
+                    "guide_id": 2136,
+                    "next_guide_id": 2137,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 2137,
+            "flow_guide_id": 976,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+            "guide_page_name": "React App",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 2137,
+                "guide_id": 2137,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 4,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 2605,
+                "element_type": "input[type=text]",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15799,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Enter Title"
+                    },
+                    {
+                        "element_detail_id": 15800,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "data-testid = title-input"
+                    },
+                    {
+                        "element_detail_id": 15801,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "type = text"
+                    },
+                    {
+                        "element_detail_id": 15802,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "name = title"
+                    },
+                    {
+                        "element_detail_id": 15803,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "tagName = input"
+                    },
+                    {
+                        "element_detail_id": 15804,
+                        "element_id": 2605,
+                        "element_property_config": "attribute",
+                        "value": "class = w-100"
+                    },
+                    {
+                        "element_detail_id": 15805,
+                        "element_id": 2605,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2343,
+                    "guide_id": 2137,
+                    "next_guide_id": 2138,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 2138,
+            "flow_guide_id": 976,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://blog-post-app-tawny.vercel.app/",
+            "guide_page_name": "React App",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 2138,
+                "guide_id": 2138,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 5,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 2606,
+                "element_type": "textarea",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15806,
+                        "element_id": 2606,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Enter Description"
+                    },
+                    {
+                        "element_detail_id": 15807,
+                        "element_id": 2606,
+                        "element_property_config": "attribute",
+                        "value": "name = description"
+                    },
+                    {
+                        "element_detail_id": 15808,
+                        "element_id": 2606,
+                        "element_property_config": "attribute",
+                        "value": "data-testid = description-input"
+                    },
+                    {
+                        "element_detail_id": 15809,
+                        "element_id": 2606,
+                        "element_property_config": "attribute",
+                        "value": "tagName = textarea"
+                    },
+                    {
+                        "element_detail_id": 15810,
+                        "element_id": 2606,
+                        "element_property_config": "attribute",
+                        "value": "class = mt-10 w-100"
+                    },
+                    {
+                        "element_detail_id": 15811,
+                        "element_id": 2606,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2344,
+                    "guide_id": 2138,
+                    "next_guide_id": null,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        }
+    ],
+    "flowguide_property_details": [],
+    "is_owner": true,
+    "is_auto": 0,
+    "is_favorite": 0,
+    "finish_display": 1
+},
 			{
     "id": 949,
     "flow_guide_title": "COUIX_PJ-2083 - SP",
