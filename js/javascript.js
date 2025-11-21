@@ -18,6 +18,135 @@ window.s7_data = {
 			"total": 0,
 			"result": [
 				{
+    "id": 986,
+    "flow_guide_title": "[2083]",
+    "flow_guide_description": "",
+    "flow_guide_page_name": "SB Admin 2 - Dashboard",
+    "flow_guide_page_url": "https://sb-admin-henna.vercel.app/",
+    "group_info_ids": [],
+    "is_public": 0,
+    "guides": [
+        {
+            "id": 2161,
+            "flow_guide_id": 986,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/",
+            "guide_page_name": "SB Admin 2 - Dashboard",
+            "guide_item_notes": "",
+            "is_first_guide": 1,
+            "guide_details": {
+                "id": 2161,
+                "guide_id": 2161,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 1,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [
+                    {},
+                    {}
+                ],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": [
+                    {
+                        "id": 284,
+                        "s3_url": "https://s7-test-upload-file.s3.amazonaws.com/192.168.1.88%3A8081/guide/guide_detail_2161/9b0e2ed0-ae9f-4eb3-b7f2-7e0ba71e384b.png?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27192.168.1.88%253A8081%2Fguide%2Fguide_detail_2161%2F9b0e2ed0-ae9f-4eb3-b7f2-7e0ba71e384b.png&AWSAccessKeyId=AKIA6GBMBFM2MJRWWFCA&Signature=tbui0iWtr4bCM%2FXJxfIfwoSWjiw%3D&Expires=1763719716",
+                        "mime_type": "image/png",
+                        "file_size": 87151,
+                        "s3_url_preview": "https://s7-test-upload-file.s3.amazonaws.com/192.168.1.88%3A8081/guide/guide_detail_2161/9b0e2ed0-ae9f-4eb3-b7f2-7e0ba71e384b.png?AWSAccessKeyId=AKIA6GBMBFM2MJRWWFCA&Signature=B%2FhA80BzX7ZQT8cOY8QNkNQ%2BUvA%3D&Expires=1763719716"
+                    },
+                    {
+                        "id": 285,
+                        "s3_url": "https://s7-test-upload-file.s3.amazonaws.com/192.168.1.88%3A8081/guide/guide_detail_2161/1c4f8232-3275-40bd-893b-409c950cf93e.jpg?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27192.168.1.88%253A8081%2Fguide%2Fguide_detail_2161%2F1c4f8232-3275-40bd-893b-409c950cf93e.jpg&AWSAccessKeyId=AKIA6GBMBFM2MJRWWFCA&Signature=LjHJyIZogzHRFw1UFY%2F0%2B1nleFk%3D&Expires=1763719716",
+                        "mime_type": "image/jpeg",
+                        "file_size": 288275,
+                        "s3_url_preview": "https://s7-test-upload-file.s3.amazonaws.com/192.168.1.88%3A8081/guide/guide_detail_2161/1c4f8232-3275-40bd-893b-409c950cf93e.jpg?AWSAccessKeyId=AKIA6GBMBFM2MJRWWFCA&Signature=cHKz6kNC23VHU3DT0rWWv2Q3kKU%3D&Expires=1763719716"
+                    }
+                ]
+            },
+            "element": {
+                "element_id": 2630,
+                "element_type": "canvas",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/canvas[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 15956,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "id = myAreaChart"
+                    },
+                    {
+                        "element_detail_id": 15957,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "width = 725"
+                    },
+                    {
+                        "element_detail_id": 15958,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "height = 320"
+                    },
+                    {
+                        "element_detail_id": 15959,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "style = display: block; width: 725px; height: 320px;"
+                    },
+                    {
+                        "element_detail_id": 15960,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "tagName = canvas"
+                    },
+                    {
+                        "element_detail_id": 15961,
+                        "element_id": 2630,
+                        "element_property_config": "attribute",
+                        "value": "class = chartjs-render-monitor"
+                    },
+                    {
+                        "element_detail_id": 15962,
+                        "element_id": 2630,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 2367,
+                    "guide_id": 2161,
+                    "next_guide_id": null,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        }
+    ],
+    "flowguide_property_details": [],
+    "is_owner": true,
+    "is_auto": 0,
+    "is_favorite": 0,
+    "finish_display": 1
+},
+				{
     "id": 976,
     "flow_guide_title": "[COUIX_2363]",
     "flow_guide_description": "",
