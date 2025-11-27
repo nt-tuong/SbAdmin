@@ -18,6 +18,533 @@ window.s7_data = {
 			"total": 0,
 			"result": [
 			{
+    "id": 974,
+    "flow_guide_title": "2363 - Sb-admin",
+    "flow_guide_description": "",
+    "flow_guide_page_name": "SB Admin 2 - Forms",
+    "flow_guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+    "group_info_ids": [],
+    "is_public": 0,
+    "guides": [
+        {
+            "id": 4639,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 1,
+            "guide_details": {
+                "id": 4586,
+                "guide_id": 4639,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 1,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5513,
+                "element_type": "div",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30388,
+                        "element_id": 5513,
+                        "element_property_config": "attribute",
+                        "value": "style = \n    padding: 5px;\n"
+                    },
+                    {
+                        "element_detail_id": 30389,
+                        "element_id": 5513,
+                        "element_property_config": "attribute",
+                        "value": "tagName = div"
+                    },
+                    {
+                        "element_detail_id": 30390,
+                        "element_id": 5513,
+                        "element_property_config": "attribute",
+                        "value": "class = row"
+                    },
+                    {
+                        "element_detail_id": 30391,
+                        "element_id": 5513,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Select option\nOption 1\nOption 2\nOption 3"
+                    },
+                    {
+                        "element_detail_id": 30392,
+                        "element_id": 5513,
+                        "element_property_config": "text",
+                        "value": "text = \n                                                    \n                                                        \n                                                    \n                                                    \n                                                        \n                                                            Select option\n                                                            Option 1\n                                                            Option 2\n                                                            Option 3\n                                                        \n                                                    \n                                                "
+                    },
+                    {
+                        "element_detail_id": 30393,
+                        "element_id": 5513,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4947,
+                    "guide_id": 4639,
+                    "next_guide_id": 4640,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 4640,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 4587,
+                "guide_id": 4640,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 2,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5514,
+                "element_type": "div",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30394,
+                        "element_id": 5514,
+                        "element_property_config": "attribute",
+                        "value": "tagName = div"
+                    },
+                    {
+                        "element_detail_id": 30395,
+                        "element_id": 5514,
+                        "element_property_config": "attribute",
+                        "value": "class = card-body"
+                    },
+                    {
+                        "element_detail_id": 30396,
+                        "element_id": 5514,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Select option\nOption 1\nOption 2\nOption 3\nSubmit"
+                    },
+                    {
+                        "element_detail_id": 30397,
+                        "element_id": 5514,
+                        "element_property_config": "text",
+                        "value": "text = \n                                    \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                    \n                                                    \n                                                        \n                                                            Select option\n                                                            Option 1\n                                                            Option 2\n                                                            Option 3\n                                                        \n                                                    \n                                                \n                                            \n                                        \n                                        Submit\n                                    \n                                "
+                    },
+                    {
+                        "element_detail_id": 30398,
+                        "element_id": 5514,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4948,
+                    "guide_id": 4640,
+                    "next_guide_id": 4641,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 4641,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 4588,
+                "guide_id": 4641,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 3,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5515,
+                "element_type": "div",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30399,
+                        "element_id": 5515,
+                        "element_property_config": "attribute",
+                        "value": "style = \n    padding: 5px;\n"
+                    },
+                    {
+                        "element_detail_id": 30400,
+                        "element_id": 5515,
+                        "element_property_config": "attribute",
+                        "value": "tagName = div"
+                    },
+                    {
+                        "element_detail_id": 30401,
+                        "element_id": 5515,
+                        "element_property_config": "attribute",
+                        "value": "class = row"
+                    },
+                    {
+                        "element_detail_id": 30402,
+                        "element_id": 5515,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Select option\nOption 1\nOption 2\nOption 3"
+                    },
+                    {
+                        "element_detail_id": 30403,
+                        "element_id": 5515,
+                        "element_property_config": "text",
+                        "value": "text = \n                                                    \n                                                        \n                                                    \n                                                    \n                                                        \n                                                            Select option\n                                                            Option 1\n                                                            Option 2\n                                                            Option 3\n                                                        \n                                                    \n                                                "
+                    },
+                    {
+                        "element_detail_id": 30404,
+                        "element_id": 5515,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4949,
+                    "guide_id": 4641,
+                    "next_guide_id": 4642,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 4642,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 4589,
+                "guide_id": 4642,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 4,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5516,
+                "element_type": "div",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30405,
+                        "element_id": 5516,
+                        "element_property_config": "attribute",
+                        "value": "tagName = div"
+                    },
+                    {
+                        "element_detail_id": 30406,
+                        "element_id": 5516,
+                        "element_property_config": "attribute",
+                        "value": "class = row g-2"
+                    },
+                    {
+                        "element_detail_id": 30407,
+                        "element_id": 5516,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Select option\nOption 1\nOption 2\nOption 3"
+                    },
+                    {
+                        "element_detail_id": 30408,
+                        "element_id": 5516,
+                        "element_property_config": "text",
+                        "value": "text = \n                                                    \n                                                        \n                                                    \n                                                    \n                                                        \n                                                            Select option\n                                                            Option 1\n                                                            Option 2\n                                                            Option 3\n                                                        \n                                                    \n                                                "
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4950,
+                    "guide_id": 4642,
+                    "next_guide_id": 4643,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 4643,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 4590,
+                "guide_id": 4643,
+                "guide_contents": "<p>入力してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 5,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 2,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5517,
+                "element_type": "input[type=text]",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[1]/input[1]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30409,
+                        "element_id": 5517,
+                        "element_property_config": "attribute",
+                        "value": "type = text"
+                    },
+                    {
+                        "element_detail_id": 30410,
+                        "element_id": 5517,
+                        "element_property_config": "attribute",
+                        "value": "placeholder = Input 1"
+                    },
+                    {
+                        "element_detail_id": 30411,
+                        "element_id": 5517,
+                        "element_property_config": "attribute",
+                        "value": "tagName = input"
+                    },
+                    {
+                        "element_detail_id": 30412,
+                        "element_id": 5517,
+                        "element_property_config": "attribute",
+                        "value": "class = form-control"
+                    },
+                    {
+                        "element_detail_id": 30413,
+                        "element_id": 5517,
+                        "element_property_config": "text",
+                        "value": "text = "
+                    },
+                    {
+                        "element_detail_id": 30414,
+                        "element_id": 5517,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[1]/input[1]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4951,
+                    "guide_id": 4643,
+                    "next_guide_id": 4644,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        },
+        {
+            "id": 4644,
+            "flow_guide_id": 974,
+            "back_button_flag": 1,
+            "back_button_text": "",
+            "guide_style": "balloon",
+            "guide_page_url": "https://sb-admin-henna.vercel.app/form.html",
+            "guide_page_name": "SB Admin 2 - Forms",
+            "guide_item_notes": "",
+            "is_first_guide": 0,
+            "guide_details": {
+                "id": 4591,
+                "guide_id": 4644,
+                "guide_contents": "<p>確認してください。</p>",
+                "x_coordinate": 0,
+                "guide_play_order": 6,
+                "speech_balloon_width": 0,
+                "speech_balloon_position": 2,
+                "speech_balloon_vertical_offset": 0,
+                "speech_balloon_horizontal_offset": 0,
+                "speech_balloon_border_type": 1,
+                "speech_balloon_border_color": 1,
+                "speech_balloon_horn_flg": 1,
+                "speech_balloon_operation_type": 2,
+                "auto_input_type": 1,
+                "auto_setting_value": "",
+                "wait_time": 0,
+                "is_end_position": 0,
+                "flowguides_image_assets": [],
+                "guide_action_override_flg": 5,
+                "guide_pointer_color_type": null,
+                "image_assets_masters": []
+            },
+            "element": {
+                "element_id": 5518,
+                "element_type": "div",
+                "position_path": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]",
+                "guide_image_info": "",
+                "element_details": [
+                    {
+                        "element_detail_id": 30415,
+                        "element_id": 5518,
+                        "element_property_config": "attribute",
+                        "value": "tagName = div"
+                    },
+                    {
+                        "element_detail_id": 30416,
+                        "element_id": 5518,
+                        "element_property_config": "attribute",
+                        "value": "class = card-body"
+                    },
+                    {
+                        "element_detail_id": 30417,
+                        "element_id": 5518,
+                        "element_property_config": "innerText",
+                        "value": "innerText = Select option\nOption 1\nOption 2\nOption 3\nCheckbox:\nCheckbox 1\nCheckbox 2\nCheckbox 3\nRadio Buttons:\nRadio 1\nRadio 2\nRadio 3\nSubmit"
+                    },
+                    {
+                        "element_detail_id": 30418,
+                        "element_id": 5518,
+                        "element_property_config": "text",
+                        "value": "text = \n                                    \n                                        \n                                            \n                                        \n                                        \n                                            \n                                        \n                                        \n                                            \n                                                Select option\n                                                Option 1\n                                                Option 2\n                                                Option 3\n                                            \n                                        \n                                        \n                                            Checkbox:\n                                            \n                                                \n                                                \n                                                    Checkbox 1\n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    Checkbox 2\n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    Checkbox 3\n                                                \n                                            \n                                        \n                                        \n                                            Radio Buttons:\n                                            \n                                                \n                                                \n                                                    Radio 1\n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    Radio 2\n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    Radio 3\n                                                \n                                            \n                                        \n                                        Submit\n                                    \n                                "
+                    },
+                    {
+                        "element_detail_id": 30419,
+                        "element_id": 5518,
+                        "element_property_config": "ident_path",
+                        "value": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+                    }
+                ]
+            },
+            "guide_actions": [
+                {
+                    "id": 4952,
+                    "guide_id": 4644,
+                    "next_guide_id": null,
+                    "guide_branch_number": 0,
+                    "guide_button_label": "次へ",
+                    "action_satisfy_type": 0
+                }
+            ],
+            "link_guide": []
+        }
+    ],
+    "flowguide_property_details": [],
+    "is_owner": true,
+    "is_auto": 0,
+    "is_favorite": 0,
+    "finish_display": 1,
+    "auto_choice_display": 1
+},
+			{
     "id": 972,
     "flow_guide_title": "COUIX_2363 - form",
     "flow_guide_description": "",
