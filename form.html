@@ -109,6 +109,34 @@
                 margin-bottom: 0.5rem;
                 display: block;
             }
+
+            /* Modal adjustments for mobile */
+            .modal-dialog {
+                margin: 0.5rem;
+            }
+
+            .modal-content {
+                border-radius: 0.35rem;
+            }
+
+            .modal-body {
+                padding: 1rem;
+            }
+
+            .modal-footer {
+                padding: 0.75rem;
+            }
+
+            /* Modal form adjustments */
+            .modal-body .form-row .col-12 .row .col-6 {
+                padding-left: 0.25rem;
+                padding-right: 0.25rem;
+            }
+
+            .modal-body .row.g-3 .col-12 .row .col-6 {
+                padding-left: 0.25rem;
+                padding-right: 0.25rem;
+            }
         }
 
         /* Extra small devices (phones, less than 576px) */
@@ -138,6 +166,25 @@
 
             /* Form 4: Tighter spacing for very small screens */
             .row.g-3 .col-12 .row .col-6 {
+                padding-left: 0.15rem;
+                padding-right: 0.15rem;
+            }
+
+            /* Modal adjustments for very small screens */
+            .modal-dialog {
+                margin: 0.25rem;
+            }
+
+            .modal-body {
+                padding: 0.75rem;
+            }
+
+            .modal-body .form-row .col-12 .row .col-6 {
+                padding-left: 0.15rem;
+                padding-right: 0.15rem;
+            }
+
+            .modal-body .row.g-3 .col-12 .row .col-6 {
                 padding-left: 0.15rem;
                 padding-right: 0.15rem;
             }
@@ -496,6 +543,28 @@
                     <!-- Page Heading -->
                     <h1 class="h3 mb-4 text-gray-800">Forms</h1>
 
+                    <!-- Modal Buttons -->
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Modal Buttons</h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-primary mr-2 mb-2" data-toggle="modal" data-target="#normalModal">
+                                        Open Normal Modal
+                                    </button>
+                                    <button type="button" class="btn btn-success mr-2 mb-2" data-toggle="modal" data-target="#bootstrap4Modal">
+                                        Open Bootstrap 4 Modal
+                                    </button>
+                                    <button type="button" class="btn btn-info mb-2" data-bs-toggle="modal" data-bs-target="#bootstrap5Modal">
+                                        Open Bootstrap 5 Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row">
 
                         <!-- Form 1 -->
@@ -689,6 +758,106 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+    <!-- Normal Modal -->
+    <div class="modal fade" id="normalModal" tabindex="-1" role="dialog" aria-labelledby="normalModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="normalModalLabel">Normal Modal</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This is a normal modal dialog.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 4 Modal with Form -->
+    <div class="modal fade" id="bootstrap4Modal" tabindex="-1" role="dialog" aria-labelledby="bootstrap4ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bootstrap4ModalLabel">Bootstrap 4 Modal - Form</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="bootstrap4Form">
+                        <div class="form-row mb-3">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Input field" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <select class="form-control" required>
+                                            <option value="">Select option</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="bootstrap4Form">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Modal with Form -->
+    <div class="modal fade" id="bootstrap5Modal" tabindex="-1" aria-labelledby="bootstrap5ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bootstrap5ModalLabel">Bootstrap 5 Modal - Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="bootstrap5Form">
+                        <div class="row g-3 mb-3">
+                            <div class="col-12">
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Input field" required>
+                                    </div>
+                                    <div class="col-6">
+                                        <select class="form-select" required>
+                                            <option value="">Select option</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="bootstrap5Form">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
