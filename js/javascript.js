@@ -11,21 +11,9 @@ function isIPad() {
     const looksLikeMac = platform.includes("Mac") || /Macintosh/i.test(userAgent);
     const hasTouch = maxTouchPoints > 0 || hasOnTouchEnd;
     const result = isClassicIPad || (looksLikeMac && hasTouch);
-    alert("[isIPad]", {
-        userAgent,
-        platform,
-        maxTouchPoints,
-        hasOnTouchEnd,
-        isClassicIPad,
-        looksLikeMac,
-        hasTouch,
-        result,
-    });
+    alert(`[isIPad] | [userAgent]: ${userAgent} | [platform]: ${platform} | [maxTouchPoints]: ${maxTouchPoints} | [hasOnTouchEnd]: ${hasOnTouchEnd} | [isClassicIPad]: ${isClassicIPad} | [looksLikeMac]: ${looksLikeMac} | [hasTouch]: ${hasTouch} | [result]: ${result}`);
     return result;
 }
 
-alert(
-    `[isIPad] result=${result} ua="${userAgent}" platform="${platform}" ` +
-    `maxTouchPoints=${maxTouchPoints} ontouchend=${hasOnTouchEnd} ` +
-    `classic=${isClassicIPad} mac=${looksLikeMac} touch=${hasTouch}`
-);
+
+isIPad();
